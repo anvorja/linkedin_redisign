@@ -1,9 +1,16 @@
 // src/app/api/placeholder/[width]/[height]/route.ts
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
+
+interface RouteParams {
+  params: {
+    width: string;
+    height: string;
+  };
+}
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { width: string; height: string } }
+  { params }: RouteParams
 ) {
   const { width, height } = params;
   
@@ -27,7 +34,7 @@ export async function GET(
   `;
   
   // Devolver el SVG como respuesta
-  return new NextResponse(svg, {
+  return new Response(svg, {
     headers: {
       'Content-Type': 'image/svg+xml',
       'Cache-Control': 'public, max-age=31536000, immutable'
