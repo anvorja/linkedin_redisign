@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { Settings, Home, Users, BookOpen, TrendingUp, X, Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';

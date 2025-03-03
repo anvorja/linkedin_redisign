@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { Camera, Video, Calendar, FileText, Globe, ChevronDown, Hash, Image, BarChart2, HelpCircle, Users, Lock, Clock, Plus } from 'lucide-react';
 

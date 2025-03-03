@@ -30,7 +30,7 @@ export default function LinkedInRedesign() {
         </p>
         
         {focusMode ? (
-          <FocusMode />
+          <FocusMode onExitFocusMode={() => setFocusMode(false)} />
         ) : (
           <Tabs defaultValue="overview" className="w-full mb-12">
             <TabsList className="grid w-full grid-cols-5 mb-8">

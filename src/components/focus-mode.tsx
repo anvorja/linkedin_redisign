@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { X, ThumbsUp, MessageSquare, Share2, Bookmark, Book, ChevronLeft, Plus, Minus } from 'lucide-react';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';

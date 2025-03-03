@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { Bell, Book, Briefcase, Home, MessageCircle, Search, Users, ChevronDown, X } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
