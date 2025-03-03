@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bookmark, Users, Briefcase, Plus, ChevronUp, ChevronDown } from 'lucide-react';
+import { Bookmark, Plus, ChevronUp, ChevronDown } from 'lucide-react';
 
 // Importaciones de Shadcn UI
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -147,23 +147,5 @@ const ProfileSidebar = () => {
   );
 };
 
-const App = () => {
-  return (
-    <div className="p-4 max-w-xs mx-auto">
-      <h2 className="text-xl font-bold text-blue-600 mb-4 text-center">Perfil Lateral Mejorado</h2>
-      <ProfileSidebar />
-      <div className="mt-6 bg-white p-4 rounded shadow">
-        <p className="text-gray-600 text-sm mb-3">Mejoras implementadas:</p>
-        <ul className="list-disc text-sm text-gray-600 pl-5 space-y-2">
-          <li>Diseño compacto con toda la información esencial</li>
-          <li>Opción para colapsar/expandir el perfil</li>
-          <li>Accesos directos personalizables</li>
-          <li>Función "Ver más/menos" para optimizar espacio</li>
-          <li>Estadísticas clave en formato más legible</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
 
 export default ProfileSidebar;

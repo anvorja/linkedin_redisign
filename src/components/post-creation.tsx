@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Camera, Video, Calendar, FileText, Globe, ChevronDown, Hash, Image, BarChart2, HelpCircle, Briefcase, Newspaper, Users, Lock, Clock, Plus } from 'lucide-react';
+import { Camera, Video, Calendar, FileText, Globe, ChevronDown, Hash, Image, BarChart2, HelpCircle, Users, Lock, Clock, Plus } from 'lucide-react';
 
 // Importaciones de Shadcn UI
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';

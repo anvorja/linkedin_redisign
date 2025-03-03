@@ -8,7 +8,7 @@ import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 import { TooltipProvider, Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 
 const ArticleInFocusMode = () => {
-  const [isInFocusMode, setIsInFocusMode] = useState(true);
+  //const [isInFocusMode, setIsInFocusMode] = useState(true);
   const [fontSize, setFontSize] = useState('medium');
   
   // Función para controlar el cambio de tamaño de fuente

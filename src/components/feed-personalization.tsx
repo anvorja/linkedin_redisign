@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Settings, Home, Users, Briefcase, BookOpen, TrendingUp, X, Plus, ChevronDown } from 'lucide-react';
+import { Settings, Home, Users, BookOpen, TrendingUp, X, Plus } from 'lucide-react';
 
 // Importaciones de Shadcn UI
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Switch } from '@/components/ui/switch';
