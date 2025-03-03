@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Bookmark, Plus, ChevronUp, ChevronDown } from 'lucide-react';
-
-// Importaciones de Shadcn UI
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
@@ -15,7 +13,6 @@ const ProfileSidebar = () => {
     return (
       <Card className="text-center p-4">
         <Avatar className="h-12 w-12 mx-auto mb-2">
-          <AvatarImage src="/api/placeholder/48/48" alt="Carlos Andrés" />
           <AvatarFallback>CA</AvatarFallback>
         </Avatar>
         <p className="text-sm font-medium">Carlos A.</p>
@@ -46,7 +43,6 @@ const ProfileSidebar = () => {
           </Button>
           <div className="px-4 pt-8 pb-2 text-center relative">
             <Avatar className="absolute -top-6 left-1/2 transform -translate-x-1/2 h-12 w-12 border-4 border-white">
-              <AvatarImage src="/api/placeholder/48/48" alt="Carlos Andrés" />
               <AvatarFallback>CA</AvatarFallback>
             </Avatar>
             <CardTitle className="text-base">Catalina Melo</CardTitle>

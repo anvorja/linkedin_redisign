@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Camera, Video, Calendar, FileText, Globe, ChevronDown, Hash, Image, BarChart2, HelpCircle, Users, Lock, Clock, Plus } from 'lucide-react';
 
-// Importaciones de Shadcn UI
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
@@ -22,7 +21,6 @@ const PostCreator = () => {
         <CardContent className="p-4">
           <div className="flex items-center gap-3">
             <Avatar>
-              <AvatarImage src="/api/placeholder/48/48" alt="Carlos Andrés" />
               <AvatarFallback>CA</AvatarFallback>
             </Avatar>
             
@@ -43,7 +41,7 @@ const PostCreator = () => {
                 <div className="space-y-4 py-4">
                   <div className="flex items-center gap-3">
                     <Avatar>
-                      <AvatarImage src="/api/placeholder/48/48" alt="Carlos Andrés" />
+                      {/*<AvatarImage src="/api/placeholder/48/48" alt="Carlos Andrés" />*/}
                       <AvatarFallback>CA</AvatarFallback>
                     </Avatar>
                     <div>

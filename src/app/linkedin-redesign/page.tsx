@@ -24,7 +24,7 @@ export default function LinkedInRedesign() {
       />
       
       <div className="container mx-auto p-4 pt-8">
-        <h1 className="text-3xl font-bold text-blue-600 mb-6 text-center">LinkedIn Rediseñado con Shadcn UI</h1>
+        <h1 className="text-3xl font-bold text-blue-600 mb-6 text-center">LinkedIn Rediseñado</h1>
         <p className="text-gray-600 max-w-2xl mx-auto text-center mb-8">
           Una experiencia moderna, intuitiva y centrada en el usuario que integra las mejoras propuestas para LinkedIn
         </p>
